@@ -1,0 +1,355 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 59.99,
+        "quantity": 100,
+        "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
+        "brand": "AudioPlus",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 699.99,
+        "quantity": 50,
+        "description": "6.5-inch display with 128GB storage and a 48MP camera.",
+        "brand": "TechPhone",
+        "rating": 4.8
+      },
+      {
+        "id": 3,
+        "name": "Laptop",
+        "category": "Electronics",
+        "price": 999.99,
+        "quantity": 30,
+        "description": "15-inch laptop with 256GB SSD and 8GB RAM.",
+        "brand": "CompTech",
+        "rating": 4.6
+      },
+      {
+        "id": 4,
+        "name": "T-Shirt",
+        "category": "Clothing",
+        "price": 19.99,
+        "quantity": 200,
+        "description": "100% cotton unisex T-shirt, available in multiple colors.",
+        "brand": "ClothLine",
+        "rating": 4.3
+      },
+      {
+        "id": 5,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "price": 79.99,
+        "quantity": 120,
+        "description": "Lightweight and breathable running shoes.",
+        "brand": "FastFoot",
+        "rating": 4.7
+      },
+      {
+        "id": 6,
+        "name": "Blender",
+        "category": "Home Appliances",
+        "price": 49.99,
+        "quantity": 80,
+        "description": "High-speed blender with a 1.5-liter jug.",
+        "brand": "HomePro",
+        "rating": 4.2
+      },
+      {
+        "id": 7,
+        "name": "Action Camera",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 40,
+        "description": "Waterproof action camera with 4K recording.",
+        "brand": "CamMax",
+        "rating": 4.4
+      },
+      {
+        "id": 8,
+        "name": "Backpack",
+        "category": "Accessories",
+        "price": 39.99,
+        "quantity": 150,
+        "description": "Durable backpack with multiple compartments.",
+        "brand": "PackIt",
+        "rating": 4.3
+      },
+      {
+        "id": 9,
+        "name": "Wristwatch",
+        "category": "Accessories",
+        "price": 249.99,
+        "quantity": 60,
+        "description": "Luxury wristwatch with a stainless steel case.",
+        "brand": "TimeMaster",
+        "rating": 4.9
+      },
+      {
+        "id": 10,
+        "name": "Electric Kettle",
+        "category": "Home Appliances",
+        "price": 24.99,
+        "quantity": 110,
+        "description": "1.7-liter electric kettle with auto shut-off.",
+        "brand": "KitchenEssentials",
+        "rating": 4.1
+      },
+      {
+        "id": 11,
+        "name": "Cookware Set",
+        "category": "Home Appliances",
+        "price": 89.99,
+        "quantity": 45,
+        "description": "Non-stick cookware set with 5 pieces.",
+        "brand": "Chef'sChoice",
+        "rating": 4.4
+      },
+      {
+        "id": 12,
+        "name": "Jeans",
+        "category": "Clothing",
+        "price": 49.99,
+        "quantity": 90,
+        "description": "Slim-fit jeans available in multiple sizes.",
+        "brand": "DenimWorld",
+        "rating": 4.3
+      },
+      {
+        "id": 13,
+        "name": "Novel",
+        "category": "Books",
+        "price": 14.99,
+        "quantity": 300,
+        "description": "A bestselling fiction novel.",
+        "author": "John Smith",
+        "rating": 4.7
+      },
+      {
+        "id": 14,
+        "name": "Tablet",
+        "category": "Electronics",
+        "price": 399.99,
+        "quantity": 70,
+        "description": "10-inch tablet with 64GB storage and Wi-Fi.",
+        "brand": "TabTech",
+        "rating": 4.5
+      },
+      {
+        "id": 15,
+        "name": "Desk Chair",
+        "category": "Furniture",
+        "price": 199.99,
+        "quantity": 25,
+        "description": "Ergonomic desk chair with lumbar support.",
+        "brand": "ComfortSeat",
+        "rating": 4.6
+      },
+      {
+        "id": 16,
+        "name": "Gaming Console",
+        "category": "Electronics",
+        "price": 499.99,
+        "quantity": 20,
+        "description": "Next-gen gaming console with 1TB storage.",
+        "brand": "GameBox",
+        "rating": 4.8
+      },
+      {
+        "id": 17,
+        "name": "Sunglasses",
+        "category": "Accessories",
+        "price": 129.99,
+        "quantity": 100,
+        "description": "Polarized sunglasses with UV protection.",
+        "brand": "SunGuard",
+        "rating": 4.2
+      },
+      {
+        "id": 18,
+        "name": "Fitness Tracker",
+        "category": "Electronics",
+        "price": 79.99,
+        "quantity": 70,
+        "description": "Waterproof fitness tracker with heart rate monitoring.",
+        "brand": "FitPlus",
+        "rating": 4.5
+      },
+      {
+        "id": 19,
+        "name": "Water Bottle",
+        "category": "Accessories",
+        "price": 14.99,
+        "quantity": 180,
+        "description": "Stainless steel water bottle with 1-liter capacity.",
+        "brand": "HydroMate",
+        "rating": 4.6
+      },
+      {
+        "id": 20,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 60,
+        "description": "Portable Bluetooth speaker with 12-hour battery life.",
+        "brand": "SoundBoom",
+        "rating": 4.7
+      },
+      {
+        "id": 21,
+        "name": "Action Figure",
+        "category": "Toys",
+        "price": 19.99,
+        "quantity": 150,
+        "description": "Superhero action figure, 6 inches tall.",
+        "brand": "ToyWorld",
+        "rating": 4.4
+      },
+      {
+        "id": 22,
+        "name": "Board Game",
+        "category": "Toys",
+        "price": 29.99,
+        "quantity": 90,
+        "description": "Strategy board game for 2-4 players.",
+        "brand": "GameMasters",
+        "rating": 4.8
+      },
+      {
+        "id": 23,
+        "name": "Desk Lamp",
+        "category": "Home Appliances",
+        "price": 24.99,
+        "quantity": 80,
+        "description": "LED desk lamp with adjustable brightness.",
+        "brand": "BrightLife",
+        "rating": 4.5
+      },
+      {
+        "id": 24,
+        "name": "Yoga Mat",
+        "category": "Sports",
+        "price": 34.99,
+        "quantity": 120,
+        "description": "Non-slip yoga mat with 5mm thickness.",
+        "brand": "FitMat",
+        "rating": 4.7
+      },
+      {
+        "id": 25,
+        "name": "Electric Shaver",
+        "category": "Personal Care",
+        "price": 49.99,
+        "quantity": 50,
+        "description": "Rechargeable electric shaver with precision blades.",
+        "brand": "ShavePro",
+        "rating": 4.4
+      },
+      {
+        "id": 26,
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "price": 59.99,
+        "quantity": 100,
+        "description": "High-precision gaming mouse with customizable buttons.",
+        "brand": "GameGear",
+        "rating": 4.6
+      },
+      {
+        "id": 27,
+        "name": "Cookbook",
+        "category": "Books",
+        "price": 24.99,
+        "quantity": 200,
+        "description": "A comprehensive guide to international cuisine.",
+        "author": "Jane Doe",
+        "rating": 4.5
+      },
+      {
+        "id": 28,
+        "name": "Winter Jacket",
+        "category": "Clothing",
+        "price": 119.99,
+        "quantity": 75,
+        "description": "Waterproof winter jacket with a hood.",
+        "brand": "WinterWear",
+        "rating": 4.8
+      },
+      {
+        "id": 29,
+        "name": "Bicycle Helmet",
+        "category": "Sports",
+        "price": 49.99,
+        "quantity": 110,
+        "description": "Lightweight bicycle helmet with ventilation.",
+        "brand": "SafeRide",
+        "rating": 4.3
+      },
+      {
+        "id": 30,
+        "name": "Hand Mixer",
+        "category": "Home Appliances",
+        "price": 29.99,
+        "quantity": 60,
+        "description": "Electric hand mixer with multiple speed settings.",
+        "brand": "MixMaster",
+        "rating": 4.2
+      },
+      {
+        "id": 31,
+        "name": "Camping Tent",
+        "category": "Sports",
+        "price": 149.99,
+        "quantity": 40,
+        "description": "4-person waterproof camping tent.",
+        "brand": "CampSafe",
+        "rating": 4.6
+      },
+      {
+        "id": 32,
+        "name": "Wireless Keyboard",
+        "category": "Electronics",
+        "price": 49.99,
+        "quantity": 80,
+        "description": "Slim wireless keyboard with Bluetooth connectivity.",
+        "brand": "KeyTech",
+        "rating": 4.4
+      },
+      {
+        "id": 33,
+        "name": "Garden Tools Set",
+        "category": "Home Appliances",
+        "price": 34.99,
+        "quantity": 90,
+        "description": "Set of 5 stainless steel garden tools.",
+        "brand": "GreenThumb",
+        "rating": 4.7
+      },
+      {
+        "id": 34,
+        "name": "Portable Charger",
+        "category": "Electronics",
+        "price": 39.99,
+        "quantity": 130,
+        "description": "10,000mAh portable charger with USB-C and USB-A ports.",
+        "brand": "PowerUp",
+        "rating": 4.5
+      },
+      {
+        "id": 35,
+        "name": "Leather Wallet",
+        "category": "Accessories",
+        "price": 49.99,
+        "quantity": 90,
+        "description": "Genuine leather wallet with RFID protection.",
+        "brand": "WalletPro",
+        "rating": 4.6
+      }
+    ]
+  }
+  
