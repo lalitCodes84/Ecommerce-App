@@ -1,11 +1,13 @@
 import { Box, Flex, Link, HStack, Image } from "@chakra-ui/react";
- import {Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink } from "react-router-dom";
 import React from "react";
+import Logo from "./Logo"
 
-function Navbar() {
+function Navbar({marginBottom}) {
   return (
     <div>
-      <HStack
+      <HStack 
+      marginBottom={marginBottom}
         border="1px solid black"
         backgroundColor="#006064"
         color="whitesmoke"
@@ -13,15 +15,24 @@ function Navbar() {
         justifyContent="space-between"
       >
         {/* Left Menu Section Of Navbar */}
-        <Flex gap={10} padding={4}>
+        <Flex gap={10} padding={4} alignItems={"center"}>
+         
+           <Logo/>
+         
           <Box>
-            <Link as={RouterLink} to="/">Home</Link>
+            <Link as={RouterLink} to="/">
+              Home
+            </Link>
           </Box>
           <Box>
-            <Link as={RouterLink} to="/about">About</Link>
+            <Link as={RouterLink} to="/about">
+              About
+            </Link>
           </Box>
           <Box>
-            <Link as={RouterLink} to="/contact">Contact Us</Link>
+            <Link as={RouterLink} to="/contact">
+              Contact Us
+            </Link>
           </Box>
         </Flex>
 
@@ -34,10 +45,14 @@ function Navbar() {
             </Link>
           </Box>
           <Box>
-            <Link as={RouterLink} to="/login">Login</Link>
+            <Link as={RouterLink} to="/login">
+              Login
+            </Link>
           </Box>
           <Box>
-            <Link as={RouterLink} to="/signup">Sign Up</Link>
+            <Link as={RouterLink} to="/signup">
+              Sign Up
+            </Link>
           </Box>
         </Flex>
       </HStack>

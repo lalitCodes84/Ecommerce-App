@@ -8,7 +8,7 @@ function Home() {
     async function fetchData(){
      
       try{
-        let res = await fetch("./db.json");
+        let res = await fetch("");
         let products = await res.json();
         setData(products);
       }catch(error){
