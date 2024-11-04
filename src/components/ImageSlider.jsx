@@ -10,7 +10,6 @@ import {
   ModalBody,
 } from "@chakra-ui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
-import { easeInOut } from "framer-motion";
 
 const ImageSlider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,7 +38,14 @@ const ImageSlider = ({ images }) => {
   }, [currentIndex]);
 
   return (
-    <Box position="relative" width="100vw" maxWidth="100vw" margin="auto" height="auto">
+    <Box
+      position="relative"
+      width="95vw"
+      maxWidth="100vw"
+      margin="auto"
+      height="auto"
+      
+    >
       <IconButton
         aria-label="Previous"
         icon={<ChevronLeftIcon />}
@@ -49,6 +55,7 @@ const ImageSlider = ({ images }) => {
         top="50%"
         transform="translateY(-50%)"
         zIndex="1"
+        backgroundColor="transparent"
       />
       <Image
         src={images[currentIndex]}
@@ -58,7 +65,6 @@ const ImageSlider = ({ images }) => {
         cursor="pointer"
         width="100%"
         height="250px"
-        
       />
       <IconButton
         aria-label="Next"
@@ -69,6 +75,7 @@ const ImageSlider = ({ images }) => {
         top="50%"
         transform="translateY(-50%)"
         zIndex="1"
+        backgroundColor="transparent"
       />
       <Modal isOpen={isOpen} onClose={closeModal} size="lg">
         <ModalOverlay />

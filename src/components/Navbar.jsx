@@ -1,13 +1,13 @@
 import { Box, Flex, Link, HStack, Image } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 import React from "react";
-import Logo from "./Logo"
+import Logo from "./Logo";
 
-function Navbar({marginBottom}) {
+function Navbar({ marginBottom }) {
   return (
     <div>
-      <HStack 
-      marginBottom={marginBottom}
+      <HStack
+        marginBottom={marginBottom}
         border="1px solid black"
         backgroundColor="#006064"
         color="whitesmoke"
@@ -16,9 +16,8 @@ function Navbar({marginBottom}) {
       >
         {/* Left Menu Section Of Navbar */}
         <Flex gap={10} padding={4} alignItems={"center"}>
-         
-           <Logo/>
-         
+          <Logo />
+
           <Box>
             <Link as={RouterLink} to="/">
               Home

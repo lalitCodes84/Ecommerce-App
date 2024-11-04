@@ -1,28 +1,24 @@
-import React, { useEffect, useState } from 'react'
+import React from "react";
+import Products from "./Products";
 
 function Home() {
-
-  const [data,setData] = useState([]);
-
-  useEffect(()=>{
-    async function fetchData(){
-     
-      try{
-        let res = await fetch("");
-        let products = await res.json();
-        setData(products);
-      }catch(error){
-        console.log({message:`Error Occured ${error}`})
-      }
-    }
-    fetchData()
-  },[])
-
-  console.log(data);
-
   return (
-    <div>Home</div>
-  )
+    <div
+      id="productsContainer"
+      style={{
+        // border: "1px solid black",
+        margin: "auto",
+        padding: "20px",
+        marginTop: "20px",
+        width: "95vw",
+        display: "grid",
+        gridTemplateColumns: "repeat(4,1fr)",
+        gap: "20px",
+      }}
+    >
+      <Products />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
